@@ -1,0 +1,18 @@
+node_modules/
+dev/dist/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Bun
+bun-debug-*.log
