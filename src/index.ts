@@ -1,5 +1,5 @@
 
-/**
+/**asd
  * JSX factory (pragma): transforma `<tag {...props}>{children}</tag>` num elemento DOM real,
  * sem Virtual DOM. `tag` pode ser uma string (tag HTML/SVG, via `document.createElement`),
  * uma função-componente (chamada como `tag(props)`) ou uma classe-componente (instanciada
