@@ -1,0 +1,15 @@
+{
+	"name": "jsx",
+	"version": "1.0.0",
+	"description": "JSX Factory - Transforma sintaxe JSX em elementos DOM nativos, sem depender de React.",
+	"type": "module",
+	"packageManager": "bun@1.3.10",
+	"scripts": {
+		"dev": "bun --hot dev/index.html",
+		"build": "bun build ./dev/main.js --outdir ./dev/dist"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/bun": "^1.3.14"
+	}
+}
